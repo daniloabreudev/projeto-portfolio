@@ -207,6 +207,15 @@ article h2{
   border-radius: 8px;
 
 }
+.titulo a.link-titulo {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.titulo a.link-titulo:hover {
+    color: var(--destaque); /* Ou a cor que você usa para links/botões */
+    text-decoration: underline;
+}
 footer{
   background-color: var(--destaque);
   color: var(--texto-inverso);

@@ -172,7 +172,7 @@ article h2{
 #formacao-container .periodo{
   font-size: 0.8em;
   font-weight: bold;
-  color: text;
+  color: var(--texto);
 }
 #formacao-container .instituicao{
   color: var(--destaque-inverso);
@@ -245,7 +245,7 @@ footer a:hover{
     flex-direction: row-reverse;
     justify-content: space-between;
   }
-  #projet0-container .projeto-info{
+  #projeto-container .projeto-info{
     max-width: 80%;
   }
   #projeto-container .foto{
